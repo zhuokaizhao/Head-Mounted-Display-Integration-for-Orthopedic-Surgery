@@ -23,21 +23,21 @@ Unity
 .. begin_detailed_description	
 Contains Unity applications that run on HoloLens
 
-/Unity/HoloLensOrthopedic is the demo app that runs in HoloLens. Detailed instruction on how to run Unity application on HoloLens could be found here_
+* /Unity/HoloLensOrthopedic is the demo app that runs in HoloLens. Detailed instruction on how to run Unity application on HoloLens could be found here_
 
 .. _here: https://docs.microsoft.com/en-us/windows/mixed-reality/unity-development-overview
 
-/Unity/RGBD_to_HoloLens is another Unity application that performs pivot calibration and saves marker-to-camera transformations. There is an option in the source code that could be changed to whether or not save the transformation results. If the saving option is true, the transformations will be saved to /F200/Pivot Calibration/pointTipNeedle.txt. Notice that the old files should be deleted manually before saving new results.
+* /Unity/RGBD_to_HoloLens is another Unity application that performs pivot calibration and saves marker-to-camera transformations. There is an option in the source code that could be changed to whether or not save the transformation results. If the saving option is true, the transformations will be saved to /F200/Pivot Calibration/pointTipNeedle.txt. Notice that the old files should be deleted manually before saving new results.
 		
 
 F200
 ----------------------------------------------------------------------------------------
 .. begin_detailed_description
-After the marker-to-camera transformations result is saved, pivot calibration result could be computed by Python scripts located at /F200/Pivot Calibration/pivot.py. Running this source code with terminal will automatically create a file called "pointTip.txt", which is the tool tip position with respect to the marker coordinate.  
+* After the marker-to-camera transformations result is saved, pivot calibration result could be computed by Python scripts located at /F200/Pivot Calibration/pivot.py. Running this source code with terminal will automatically create a file called "pointTip.txt", which is the tool tip position with respect to the marker coordinate.  
 
-/F200/RGBD_T_Marker is a PC-running copy that performs the same procedure as /Unity/RGBD_to_HoloLens.
+* /F200/RGBD_T_Marker is a PC-running copy that performs the same procedure as /Unity/RGBD_to_HoloLens.
 
-/F200/CheckAccuracy calculates the end-to-end combined error of camera calibration and pivot calibration.
+* /F200/CheckAccuracy calculates the end-to-end combined error of camera calibration and pivot calibration.
 
 
 Paper
@@ -48,13 +48,13 @@ PDF version of the report which includes all the details about the algorithm and
 
 Demo
 ----------------------------------------------------------------------------------------
-*Tracking performed within HoloLens:
+* Tracking performed within HoloLens:
 
 .. image:: https://github.com/zhuokaizhao/Head-Mounted-Display-Integration-for-Orthopedic-Surgery/blob/master/Demo/hololens_tracking.png
    :alt: tracking
    :align: center
 
-Display the occuluded part of the surgical tool:
+* Display the occuluded part of the surgical tool:
 
 .. image:: https://github.com/zhuokaizhao/Head-Mounted-Display-Integration-for-Orthopedic-Surgery/blob/master/Demo/inserted1.jpg
    :alt: inserted1
