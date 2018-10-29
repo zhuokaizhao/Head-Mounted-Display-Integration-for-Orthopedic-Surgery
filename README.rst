@@ -1,6 +1,6 @@
 Head-Mounted Display Integration for Orthopedic Surgery
 ========================================================================================
-Contributers: Zhuokai Zhao
+Contributer: Zhuokai Zhao
 
 .. begin_brief_description
 
@@ -21,13 +21,13 @@ The project focuses on using augmented reality to visualize the occluded part of
 Unity
 ----------------------------------------------------------------------------------------
 .. begin_detailed_description	
-Contains apps that run on HoloLens
+Contains Unity applications that run on HoloLens
 
 /Unity/HoloLensOrthopedic is the demo app that runs in HoloLens. Detailed instruction on how to run Unity application on HoloLens could be found here_
 
 .. _here: https://docs.microsoft.com/en-us/windows/mixed-reality/unity-development-overview
 
-/Unity/RGBD_to_HoloLens is another Unity application that performs Pivot calibration and saves marker-to-camera transformations. There is an option in the source code that could be changed to whether or not save the transformation results. If the saving option is true, the transformations will be saved to /F200/Pivot Calibration/pointTipNeedle.txt. Notice that the old files should be deleted manually before saving new results.
+/Unity/RGBD_to_HoloLens is another Unity application that performs pivot calibration and saves marker-to-camera transformations. There is an option in the source code that could be changed to whether or not save the transformation results. If the saving option is true, the transformations will be saved to /F200/Pivot Calibration/pointTipNeedle.txt. Notice that the old files should be deleted manually before saving new results.
 		
 
 F200
@@ -48,7 +48,7 @@ PDF version of the report which includes all the details about the algorithm and
 
 Demo
 ----------------------------------------------------------------------------------------
-Tracking performed within HoloLens:
+*Tracking performed within HoloLens:
 
 .. image:: https://github.com/zhuokaizhao/Head-Mounted-Display-Integration-for-Orthopedic-Surgery/blob/master/Demo/hololens_tracking.png
    :alt: tracking
