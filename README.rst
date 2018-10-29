@@ -35,7 +35,9 @@ F200
 .. begin_detailed_description
 * After the marker-to-camera transformations result is saved, pivot calibration result could be computed by Python scripts located at /F200/Pivot Calibration/pivot.py. Running this source code with terminal will automatically create a file called "pointTip.txt", which is the tool tip position with respect to the marker coordinate.  
 
+
 * /F200/RGBD_T_Marker is a PC-running copy that performs the same procedure as /Unity/RGBD_to_HoloLens.
+
 
 * /F200/CheckAccuracy calculates the end-to-end combined error of camera calibration and pivot calibration.
 
@@ -53,6 +55,7 @@ Demo
 .. image:: https://github.com/zhuokaizhao/Head-Mounted-Display-Integration-for-Orthopedic-Surgery/blob/master/Demo/hololens_tracking.png
    :alt: tracking
    :align: center
+
 
 * Display the occuluded part of the surgical tool:
 
