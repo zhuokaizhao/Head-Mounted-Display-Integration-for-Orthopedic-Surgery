@@ -13,7 +13,7 @@ The project focuses on using augmented reality to visualize the occluded part of
    :align: center
 
 
-.. contents:: Contents
+* .. contents:: Contents
    :local:
    :backlinks: none
 
@@ -45,8 +45,9 @@ F200
 Paper
 ----------------------------------------------------------------------------------------
 .. begin_detailed_description
-PDF version of the report which includes all the details about the algorithm and code.
+PDF_ version of the report which includes all the details about the algorithm and code.
 
+.. _PDF: https://github.com/zhuokaizhao/Head-Mounted-Display-Integration-for-Orthopedic-Surgery/blob/master/Head-Mounted%20Display%20Integration%20for%20Orthopedic%20Surgery.pdf
 
 Demo
 ----------------------------------------------------------------------------------------
