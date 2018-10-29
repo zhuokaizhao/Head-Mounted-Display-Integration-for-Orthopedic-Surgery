@@ -13,7 +13,11 @@ The project focuses on using augmented reality to visualize the occluded part of
    :align: center
 
 
-* .. contents:: Contents
+
+
+
+
+.. contents:: Contents
    :local:
    :backlinks: none
 
